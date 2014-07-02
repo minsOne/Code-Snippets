@@ -1,5 +1,5 @@
-// ScrollView optional method
-// Platform : All
+// ScrollView optional method and Code Snippets
+// Platform : iOS / OSX
 // Language : Objective-C
 // Completion Scope: Function or Method
 
