@@ -1,8 +1,10 @@
 // ScrollView optional method and Code Snippets
 // Platform : iOS / OSX
 // Language : Objective-C
-// Completion Scope: Function or Method
+// Completion Scope: Method
 
+
+#pragma mark - Methods
 
 // ScrollView Direction Detecting Method
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView

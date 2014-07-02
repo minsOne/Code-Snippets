@@ -2,8 +2,10 @@
  CALayer optional methods and Code Snippets
  Platform : iOS / OSX
  Language : Objective-C
- Completion Scope : Function or Method
+ Completion Scope : Method
  */
+
+#pragma mark - Methods
 
 // CALayer shadow effective method
 - (CALayer *)Shadow:(CALayer *)layer
