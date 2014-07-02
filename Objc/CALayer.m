@@ -8,7 +8,7 @@
 #pragma mark - Methods
 
 // CALayer shadow effective method
-- (CALayer *)Shadow:(CALayer *)layer
+- (CALayer *)setShadowLayer:(CALayer *)layer
 {
     layer.shadowOffset = CGSizeMake(<#width#>, <#height#>);
     layer.shadowRadius = <#radius#>;
