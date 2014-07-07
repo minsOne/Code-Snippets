@@ -1,9 +1,11 @@
-// Shared Singleton
-// Class method that returns a singleton instance
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Class Implementation
+/*
+ Shared Singleton
+ Platform : iOS / OSX
+ Language : Objective-C
+ Completion Scope : Class Implementation
+ */
+
+#pragma mark - Method
 
 + (instancetype)shared<#name#> {
     static <#class#> *_shared<#name#> = nil;
