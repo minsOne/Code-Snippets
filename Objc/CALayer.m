@@ -1,8 +1,8 @@
 /*
- CALayer optional methods and Code Snippets
+ CALayer optional methods Code Snippets
  Platform : iOS / OSX
  Language : Objective-C
- Completion Scope : Method
+ Completion Scope : Function or Method
  */
 
 #pragma mark - Method
