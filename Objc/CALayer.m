@@ -5,7 +5,7 @@
  Completion Scope : Method
  */
 
-#pragma mark - Methods
+#pragma mark - CALayer
 
 // CALayer shadow effective method
 - (void)setShadowLayer:(CALayer *)layer
