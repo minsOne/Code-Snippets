@@ -8,7 +8,7 @@
 #pragma mark - Using NSSortDescriptor Method
 
 NSSortDescriptor *sortDescriptor;
-sortDescriptor = [[NSSortDescriptor alloc] initWithKey:<#Sorting key string#> ascending:<#Ascending flag#>];
+sortDescriptor = [[NSSortDescriptor alloc] initWithKey:<#Sorting key path string#> ascending:<#Ascending flag#>];
 NSArray *sortDescriptors = [NSMutableArray arrayWithObject:sortDescriptor];
 NSArray *sortedArray = [unsortedArray sortedArrayUsingDescriptors:sortDescriptors];
 
