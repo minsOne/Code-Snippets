@@ -4,9 +4,22 @@
  Language : Swift
  */
 
-#pragma mark - Array
+#pragma mark - Literal
 
-var multidimensionalArray = Array<Array<<#Type#>>>()
+var array2d = Array<Array<<#Type#>>>()
 for column in 0 ... <#Row Length#> {
-    multidimensionalArray.append(Array(count: <#Column Length#>, repeatedValue: <#Initial Value#>))
+    array2d.append(Array(count: <#Column Length#>, repeatedValue: <#Initial Value#>))
 }
+
+#pragma mark - Shortand Literal
+
+var array2d = [[<#Type#>]]()
+
+#paragma mark - Shrotand Literal and Optional
+
+var array2d :[[<#Type#>]?]
+
+#pragma mark - Shrtand Literal and Initalizing variable from Values
+
+var array2d: = [ [<#Type Value#>], [<#Type Value#>]]
+
