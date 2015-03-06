@@ -26,6 +26,7 @@ class MusicList: NSObject, NSCoding {
         self.title = coder.decodeObjectForKey("title") as? String
         self.titlePersistentID = coder.decodeObjectForKey("titlePersistentID") as? NSNumber
         self.tracks = coder.decodeObjectForKey("tracks") as? [Track]
+        super.init()
     }
     
 }
@@ -47,6 +48,7 @@ class Track: NSObject, NSCoding {
     required init(coder: NSCoder) {
         self.trackName = coder.decodeObjectForKey("trackName") as? String
         self.trackPersistentID = coder.decodeObjectForKey("trackPersistentID") as? NSNumber
+        super.init()
     }
 }
 
