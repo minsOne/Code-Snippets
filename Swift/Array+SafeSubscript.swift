@@ -1,5 +1,5 @@
 /*
-Array extension
+Array extension - safely get array value 
 Platform : iOS / OSX
 Language : Swift
 Required: iOS 9.0 and later
