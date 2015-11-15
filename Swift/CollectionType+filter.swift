@@ -2,7 +2,7 @@
 Collection extension - seperate passed list and failed list
 Platform : iOS / OSX
 Language : Swift
-Required: iOS 9.0 and later
+Required: Swift 2.0 later
 */
 
 extension CollectionType {
