@@ -20,9 +20,3 @@ extension CollectionType {
     }
 }
 
-
-// MARK: Use
-
-let list = [1,2,3]
-list[safe: 4] // nil
-list[safe: 2] // 3
