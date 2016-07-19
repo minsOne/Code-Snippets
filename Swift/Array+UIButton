@@ -14,6 +14,17 @@ extension Array where Element: UIButton {
     }
 }
 
+or
+
+extension SequenceType where Generator.Element: UIButton {
+    func clearState() {
+        self.forEach {
+            $0.highlighted = false
+            $0.selected = false
+        }
+    }
+}
+
 // MARK: Use
 
 let buttonArray = [UIButton(), UIButton(), UIButton()]
