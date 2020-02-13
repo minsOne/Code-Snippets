@@ -8,7 +8,7 @@ extension View {
 	///     Text("Hello world").maskContent(using: Color.blue)
 	///     // or
 	///     Color.blue.mask(Text("Hello world"))
-    ///
+	///
 	func maskContent<T: View>(using: T) -> some View {
 		using.mask(self)
 	}
