@@ -1,3 +1,5 @@
+/// reference: dotSwift 2020 - Tobias Due Munk - Prototyping Custom UI in SwiftUI
+
 import SwiftUI
 
 extension View {
